@@ -1,3 +1,3 @@
 #!/bin/bash
-printf "{\n\t\"token\": \"%s\"\n}" $DISCORD_BOT_TOKEN > config.json
+printf "{\n\t\"token\": \"%s\"\n}\n" $DISCORD_BOT_TOKEN > config.json
 chmod 400 config.json
