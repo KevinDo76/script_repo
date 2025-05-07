@@ -7,4 +7,5 @@ mkdir ../repo
 git clone https://github.com/KevinDo76/rotbot_repo.git ../repo
 mv ../repo/src/* ./
 ollama serve &
+ollama pull qwen3:4b
 node index.js
