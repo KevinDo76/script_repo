@@ -8,5 +8,6 @@ git clone https://github.com/KevinDo76/rotbot_repo.git ../repo
 rm -rf ./src
 mv -f ../repo/src ./
 ollama serve &
+sleep 1
 ollama pull deepseek-r1:7b
 node src/index.js
