@@ -9,5 +9,5 @@ rm -rf ./src
 mv -f ../repo/src ./
 ollama serve &
 sleep 1
-ollama pull deepseek-r1:7b
+ollama pull llama3.2:3b
 node src/index.js
