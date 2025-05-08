@@ -9,5 +9,5 @@ rm -rf ./src
 mv -f ../repo/src ./
 ollama serve &
 sleep 1
-ollama pull llama3.2:3b
+ollama pull llama3.1:8b-instruct-q2_K
 node src/index.js
