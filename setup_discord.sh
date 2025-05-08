@@ -9,5 +9,5 @@ rm -rf ./src
 mv -f ../repo/src ./
 ollama serve &
 sleep 1
-ollama pull mistral-small:22b-instruct-2409-q2_K
+ollama pull mistral-nemo:12b
 node src/index.js
